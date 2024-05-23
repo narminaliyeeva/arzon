@@ -1,7 +1,9 @@
 import React from 'react'
-import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+
 function Admin() {
-const [first, setfirst] = useState(second)
+
+
 
   return (
     <div>
@@ -9,12 +11,12 @@ const [first, setfirst] = useState(second)
             <img src="logo.png.webp"  />
           <ul>
             <li>Home</li>
-            <li>Shops</li>gi
+            <li>Shops</li>
             <li>Pages</li>
             <li>Blog</li>
             <li>Content</li>
           </ul>
-        <button className="admin">Admin</button>
+        
         </div>
         <div>
             <table border={"1px"}>
@@ -27,6 +29,7 @@ const [first, setfirst] = useState(second)
                 </thead>
                 <tbody></tbody>
             </table>
+            <Link to={'/add'} className='add'><button className="add">Add</button></Link>
         </div>
     </div>
   )
