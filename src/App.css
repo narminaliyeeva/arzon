@@ -1,20 +1,93 @@
-section{
+/* section{
   width: 100%;
   height: 200px;
   background-color: darkgreen;
-}
-.navbar{
+
+} */
+.navbar {
   width: 100%;
   background-color: chocolate;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
+
 }
-ul{
+
+ul {
   display: flex;
   gap: 20px;
 }
-ul li{
+
+ul li {
   list-style-type: none;
+}
+
+.one {
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.one img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.two img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.two {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.two p {
+  font-size: 15px;
+}
+
+.two h1 {
+  font-size: 21px;
+}
+
+.three p {
+  font-size: 15px;
+}
+
+.three h1 {
+  font-size: 21px;
+}
+
+.four p {
+  font-size: 15px;
+}
+
+.four h1 {
+  font-size: 21px;
+}
+
+.five p {
+  font-size: 15px;
+}
+
+.five h1 {
+  font-size: 21px;
+}
+.featured {
+  text-align: center;
+  font-size: 40px;
+  padding-top:70px;
+  padding-bottom:70px;
+  
+}
+.card{
+ 
+}
+.card img {
+  border: none;
+}
+.awesome {
+  padding-top: 40px;
+  font-size: 40px;
+  padding-bottom:40px;
+  
 }
